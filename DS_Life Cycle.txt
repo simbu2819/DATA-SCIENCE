@@ -1,0 +1,49 @@
+Structure Data Science Life cycle
+
+-- 1.Business understanding 
+    			- define a business problem - loan permission, churn prediction, telecom next month bill prediction
+-- 2.Data understanding - do i have the right to the above given problem
+                       - source of data, structure of the data
+-- 3. EDA -Data Analysis for Statistical concepts.
+	-- 3.1.exploratory data analysis1
+                    - Variable identification - str of variable - type, category, structure
+					      - Univariate analysis - missing values, outliers, visualize, mct, mds
+                    - Bivariate analysis - finding correlation between two variables
+	-- 3.2.exploratory data analysis2
+                    - Multivariate analysis - t-test, ztest, anova, manova, ancova, mancova
+                    - importance of variables - pearson chi square, wald chi square, variable selection methods
+                    - normalization of the variables
+--4. Feature Engineering 
+                    - feature selection(data filtration)
+                    - feature extraction (reducing dimensions)
+                    - feature construction  (creating new transformed variables - Gender - g_m, g_f)
+
+-- 5.Modelling(ML/DL : Algorithms or Neural Networks)
+		    -Supervised Learning
+            		    - Regression - prediction of numeric value
+            		    - Classification - Predicting probabilities of a class
+
+		    -Unsupervised Learning
+	                    -Clustering
+	    	 	    -Association
+	    		    -Dimensionality Reduction
+			    -Data Reduction
+			    -Anomaly Detection
+			    -Data Generation
+			    -Recommendation System
+		            - ....etc
+
+	    	    -Semi-Supervised learning
+			    -Clustering
+			    -Classification
+
+		    -Re-inforcement Learning
+			    -State Action Reward (SAR) EX:-Robot , Chess game, ..etc
+
+-- 6.Model Evaluation
+        	     -RMSE, ROC Curve, confusion matrix, etc.
+
+-- 7.Deployment - expose model as a web service, Desktop Application , Mobile Application, ...etc
+
+-- 8.Maintenance 		 
+	
